@@ -1,0 +1,114 @@
+/*@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import url('https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*/
+
+* {
+  box-sizing:border-box;
+  color:#E2F3E4;
+  font-family:sans-serif;
+  font-size:16pt;
+  text-align:left;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+}
+
+body {
+  background-color:#332C50;
+}
+
+footer {
+  clear:both;
+  width:50%;
+  margin:auto;
+  padding-top:80px;
+}
+
+h1 {
+  font-size:80px;
+  font-weight:bolder;
+  margin:10px 0px;
+  padding-bottom:20px;
+  text-align:center;
+}
+
+h2 {
+  font-size:40px;
+  font-weight:bold;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+
+.content {
+  background-color:#574B89;
+  margin:20px;
+  padding:40px;
+}
+
+.jam {
+        padding-top:100px;
+        text-align:center;
+}
+
+.jam-link {
+        font-size:30px;
+        font-weight:bolder;
+        text-align:center;
+}
+
+.jam-logo {
+        width:315px;
+        height:250px;
+}
+
+.sm-block {
+        text-align:center;
+        padding-right: 50px;
+}
+
+.sm-icon {
+        margin-left:auto;
+        margin-right:auto;
+        height:18px;
+        padding-right: 10px;
+}
+
+#jam-grid {
+        display:grid;
+        grid-template-columns:auto auto auto;
+        gap:100px 10px;
+}
+
+#main-logo {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        padding:40px 0px;
+        width:80%;
+}
+
+#social-media {
+        display:flex;
+        justify-content:center;
+}
+
+/* small tablet / cell phone */
+@media screen and (min-width:800px) {
+  body {
+    width:80%;
+    margin:auto;
+  }
+}
+
+pre code {
+  color:#7AC943;
+}
+
+code, blockquote, a:visited {
+  color:#7AC943;
+}
+
+a:link, a:visited {
+  color:#CE5801;
+}
