@@ -5,16 +5,15 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-        <img id="main-logo" src="img/8bits-logo-sideways.png" />
-        <div class="content">
+        <header id="navbar">
+                <img id="main-logo" src="img/8bits-logo-sideways.png" />
                 <?php include "inc/social-media.php" ?>
-                <div id='toc'>
-                        <a href="#jams">Jams</a> |
-                        <a href="#mission">Mission</a>
-                </div>
+                <?php include "inc/toc.php" ?>
+        </header>
+        <main class="content">
                 <?php include "inc/jams.php" ?>
                 <?php include "inc/mission.php" ?>
-        </div>
+        </main>
 <script src="main.js"></script>
 </body>
 </html>
