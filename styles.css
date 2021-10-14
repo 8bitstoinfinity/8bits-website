@@ -14,7 +14,7 @@
 }
 
 body {
-        background-color:#332C50;
+        background-color:#574B89;
 }
 
 footer {
@@ -54,7 +54,9 @@ a.anchor {
 }
 
 .content {
-        background-color:#574B89;
+        background-color:#332C50;
+        /* this doesn't work?! */
+        /*border-radius:25px;*/
         padding:40px;
         margin-left:auto;
         margin-right:auto;
@@ -74,6 +76,7 @@ a.anchor {
 }
 
 .jam-logo {
+        border-radius:10px;
         max-width:315px;
         max-height:250px;
 }
@@ -95,7 +98,7 @@ a.anchor {
 }
 
 #navbar {
-        background-color:#332C50;
+        background-color:#574B89;
         overflow: hidden;
         position: fixed;
         top: 0;
@@ -132,7 +135,7 @@ a.anchor {
 }
 
 #toc a {
-        margin: 0px 100px;
+        margin: 0px 30px;
 }
 
 pre code {

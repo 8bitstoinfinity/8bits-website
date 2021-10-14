@@ -1,16 +1,12 @@
 <a class="anchor" id="rules"></a>
 <div class="text">
         <h2>Jam Rules</h2>
-
         <p>
                 Entries which break these rules or have no clear relation to the
-                Requirement (focus/limitation) will be removed without
-                notification. For clarification on why your game was removed,
-                please contact Joshua on [Discord](https://discord.gg/umzMXNq).
+                Limitation will be removed without notification. 
         </p>
 
         <h3>Main Rules</h3>
-
         <ul>
                 <li>
                         <strong>Solo or Team</strong>: Up to four members, one
@@ -32,7 +28,6 @@
         </ul>
 
         <h3>Accessibility</h3>
-
         <ul>
                 <li>
                         Must work in Windows 10. Web builds are fine.
@@ -63,7 +58,6 @@
         </ul>
 
         <h3>Allowed</h3>
-
         <ul>
                 <li>
                         General-purpose code created before the jam, i.e.
@@ -77,7 +71,6 @@
         </ul>
 
         <h3>Not Allowed</h3>
-
         <ul>
                 <li>
                         NSFW content including but not limited to sexual content

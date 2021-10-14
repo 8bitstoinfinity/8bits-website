@@ -6,7 +6,9 @@
 </head>
 <body>
         <header id="navbar">
-                <img id="main-logo" src="img/8bits-logo-sideways.png" />
+                <a href="#">
+                        <img id="main-logo" src="img/8bits-logo-sideways.png" />
+                </a>
                 <?php include "inc/social-media.php" ?>
                 <?php include "inc/toc.php" ?>
         </header>
@@ -14,6 +16,7 @@
                 <?php include "inc/jams.php" ?>
                 <?php include "inc/mission.php" ?>
                 <?php include "inc/jam-rules.php" ?>
+                <?php include "inc/rating-guide.php" ?>
         </main>
 <script src="main.js"></script>
 </body>
