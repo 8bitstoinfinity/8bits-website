@@ -19,9 +19,16 @@ body {
 
 footer {
         clear:both;
-        width:50%;
+        width:40%;
         margin:auto;
-        padding-top:80px;
+        padding: 20px 0px;
+        font-style:italic;
+}
+
+footer p {
+        text-align: center;
+        color:#DDD;
+        font-size:80%;
 }
 
 h1, h2 {
@@ -77,8 +84,8 @@ a.anchor {
 
 .jam-logo {
         border-radius:10px;
-        max-width:315px;
-        max-height:250px;
+        width:315px;
+        height:250px;
 }
 
 .sm-block {

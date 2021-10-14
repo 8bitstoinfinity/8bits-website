@@ -18,6 +18,10 @@
                 <?php include "inc/jam-rules.php" ?>
                 <?php include "inc/rating-guide.php" ?>
         </main>
+        <footer>
+                <p>Website, 8 Bits to Infinity logos, and textual content copyright &copy;2021 Joshua McLean</p>
+                <p>All other art copyright &copy; respective owners</p>
+        </footer>
 <script src="main.js"></script>
 </body>
 </html>
