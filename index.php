@@ -7,27 +7,13 @@
 <body>
         <img id="main-logo" src="img/8bits-logo-sideways.png" />
         <div class="content">
-                <div id="social-media">
-                        <span class="sm-block">
-                                <img class="sm-icon" src="img/sm/itch.png" />
-                                <a href="https://8bitstoinfinity.itch.io">8bitstoinfinity</a>
-                        </span>
-                        <span class="sm-block">
-                                <img class="sm-icon" src="img/sm/twitter.png" />
-                                <a href="https://www.twitter.com/8btiofficial">@8BtIOfficial</a>
-                        </span>
-                        <span class="sm-block">
-                                <img class="sm-icon" src="img/sm/discord.png" />
-                                <a href="https://discord.gg/umzMXNq">8 Bits to Infinity</a>
-                        </span>
+                <?php include "inc/social-media.php" ?>
+                <div id='toc'>
+                        <a href="#jams">Jams</a> |
+                        <a href="#mission">Mission</a>
                 </div>
-                <div id='jams'>
-                        <!--
-                        <h2>Past Jams</h2>
-                        <div>Click a logo or link below to see games from our past jams or join the most current.</div>
-                        -->
-                        <div id='jam-grid'></div>
-                </div>
+                <?php include "inc/jams.php" ?>
+                <?php include "inc/mission.php" ?>
         </div>
 <script src="main.js"></script>
 </body>

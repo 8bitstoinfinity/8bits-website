@@ -4,46 +4,52 @@
 */
 
 * {
-  box-sizing:border-box;
-  color:#E2F3E4;
-  font-family:sans-serif;
-  font-size:16pt;
-  text-align:left;
-  -moz-osx-font-smoothing:grayscale;
-  -webkit-font-smoothing:antialiased;
+        box-sizing:border-box;
+        color:#E2F3E4;
+        font-family:sans-serif;
+        font-size:16pt;
+        text-align:left;
+        -moz-osx-font-smoothing:grayscale;
+        -webkit-font-smoothing:antialiased;
 }
 
 body {
-  background-color:#332C50;
+        background-color:#332C50;
 }
 
 footer {
-  clear:both;
-  width:50%;
-  margin:auto;
-  padding-top:80px;
+        clear:both;
+        width:50%;
+        margin:auto;
+        padding-top:80px;
+}
+
+h1, h2 {
+        font-weight:bolder;
+        margin:10px 0px;
+        padding-bottom:20px;
+        text-align:center;
 }
 
 h1 {
-  font-size:80px;
-  font-weight:bolder;
-  margin:10px 0px;
-  padding-bottom:20px;
-  text-align:center;
+        font-size:250%;
 }
 
 h2 {
-  font-size:40px;
-  font-weight:bold;
-  text-align:center;
-  padding-top:10px;
-  padding-bottom:20px;
+        font-size:200%;
+        padding-top: 80px;
+}
+
+h3 {
+        font-size:130%;
+        font-weight:bold;
+        padding-top: 20px;
 }
 
 .content {
-  background-color:#574B89;
-  margin:20px;
-  padding:40px;
+        background-color:#574B89;
+        margin:20px;
+        padding:40px;
 }
 
 .jam {
@@ -88,27 +94,42 @@ h2 {
         width:80%;
 }
 
+#mission {
+        margin-left:auto;
+        margin-right:auto;
+        width:60%;
+}
+
+#mission-statement {
+        font-weight:bold;
+}
+
 #social-media {
         display:flex;
         justify-content:center;
 }
 
+#toc {
+        margin: 50px 0px;
+        text-align:center;
+}
+
 /* small tablet / cell phone */
 @media screen and (min-width:800px) {
-  body {
-    width:80%;
-    margin:auto;
-  }
+        body {
+                width:80%;
+                margin:auto;
+        }
 }
 
 pre code {
-  color:#7AC943;
+        color:#7AC943;
 }
 
 code, blockquote, a:visited {
-  color:#7AC943;
+        color:#7AC943;
 }
 
 a:link, a:visited {
-  color:#CE5801;
+        color:#CE5801;
 }
