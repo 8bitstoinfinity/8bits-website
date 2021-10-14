@@ -1,5 +1,5 @@
 <a class="anchor" id="mission"></a>
-<div>
+<div id="mission">
         <h2>Mission Statement</h2>
         <p>
                 <em>8 Bits to Infinity</em> is a community of game developers
@@ -12,38 +12,37 @@
                 iterative improvement.
         </p>
         <p>
-                Anyone who contributes to our game jams, whether by producing a
-                game, giving feedback, and sharing games (i.e. on Twitch or
-                YouTube) a member of our community, and strive to uphold each
-                member to the standards in this mission statement.
+                We see aanyone who contributes to our game jams (producing a
+                game, giving feedback, or sharing games from the event) as a
+                member of our community, and strive to uphold each member to the
+                standards in this mission statement.
         </p>
         <h3>Respect</h3>
         <p>
                 Treat every other member as you wish to be treated. We have zero
-                tolerance for disrespecting or discouraging others from learning,
-                experimenting, and showcasing their efforts. Respect is easy: Be humble,
-                considerate, helpful, and welcoming. Remember that everyone advances at
-                their own pace and has their own areas of difficulty.
+                tolerance for disrespect or discouragement. Respect is simple:
+                Be humble, considerate, helpful, and welcoming. Remember,
+                everyone advances at their own pace with their own unique
+                strengths and difficulties.
         </p>
         <h3>Inclusion</h3>
         <p>
-                We welcome anyone interested in game development to join our community,
-                whether to develop games for our jams or partake in some other way, such
-                as providing feedback or showcasing jam games. Anyone can join our jams,
-                whether it's their first time in game development or they've been in the
-                industry for years. Our jams benefit developers of all skill levels, and
-                in turn, all skill levels contribute to the strength of our jams. The
-                goal is to help each other learn, to examine the <em>work</em> and not
-                the developer.
+                Anyone interested in game development is welcome in our
+                community. Our jams are open to all, from a first-timer learning
+                the ropes to a seasooned veteran with years in the industry.
+                Our jams benefit all skill levels and, in turn, benefit from 
+                a variety of insights, perspectives, and backgrounds. Our focus
+                is to help each other learn and grow by examining the
+                <em>work</em> and not the developer.
         </p>
         <h3>Self-Improvement</h3>
         <p>
                 The most important progress is <em>personal</em> progress. Game
-                development is a complex undertaking, and while many areas fit objective
-                feedback on basic skills, creative aspects (including the end product)
-                are subjective. Developers must only compare their work to their own
-                past work. Each step forward is an accomplishment, regardless of how
-                others advance.
+                development is complex, and while many areas benefit from
+                objective feedback on basic skills, creative aspects (including
+                the end product) are subjective. Developers should only compare
+                their work to their own past work. Each step forward is an
+                accomplishment, regardless of how others advance.
         </p>
         <h3>Experimentation</h3>
         <p>

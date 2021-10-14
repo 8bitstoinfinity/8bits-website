@@ -90,18 +90,16 @@ a.anchor {
         padding-right: 10px;
 }
 
+#jam-grid {
+        display:grid;
+}
+
 #navbar {
         background-color:#332C50;
         overflow: hidden;
         position: fixed;
         top: 0;
         width: 100%;
-}
-
-#jam-grid {
-        display:grid;
-        grid-template-columns:auto auto auto;
-        gap:100px 10px;
 }
 
 #main-logo {
@@ -115,7 +113,6 @@ a.anchor {
 #mission {
         margin-left:auto;
         margin-right:auto;
-        width:60%;
 }
 
 #mission-statement {
@@ -147,4 +144,60 @@ code, blockquote, a:visited {
 
 a:link, a:visited {
         color:#CE5801;
+}
+
+/* desktop */
+@media all and (min-width: 1349px) {
+        /* for testing */
+        /*
+        body {
+                background-color: white;
+        }
+        */
+
+        #jam-grid {
+                grid-template-columns:auto auto auto;
+                gap:100px 10px;
+        }
+
+        #mission {
+                width:60%;
+        }
+}
+
+/* tablet */
+@media all and (min-width: 800px) and (max-width: 1349px) {
+        /* for testing */
+        /*
+        body {
+                background-color: white;
+        }
+        */
+
+        #jam-grid {
+                grid-template-columns:auto auto;
+                gap:50px 10px;
+        }
+
+        #mission {
+                width:80%;
+        }
+}
+
+/* cell */
+@media all and (max-width: 767px) {
+        /* for testing */
+        /*
+        body {
+                background-color: black;
+        }
+        */
+
+        #jam-grid {
+                grid-template-columns:auto;
+        }
+
+        #mission {
+                width:100%;
+        }
 }
