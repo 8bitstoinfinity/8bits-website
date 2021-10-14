@@ -49,7 +49,7 @@ h3 {
 a.anchor {
         display: block;
         position: relative;
-        top: -200px;
+        top: -100px;
         visibility: hidden;
 }
 
@@ -58,7 +58,7 @@ a.anchor {
         padding:40px;
         margin-left:auto;
         margin-right:auto;
-        margin-top:200px;
+        margin-top:100px;
         width:80%;
 }
 
@@ -104,13 +104,14 @@ a.anchor {
 
 #main-logo {
         display:block;
+        float:left;
         margin-left:auto;
         margin-right:auto;
         margin-top:20px;
         width:40%;
 }
 
-#mission {
+.text {
         margin-left:auto;
         margin-right:auto;
 }
@@ -148,56 +149,42 @@ a:link, a:visited {
 
 /* desktop */
 @media all and (min-width: 1349px) {
-        /* for testing */
-        /*
-        body {
-                background-color: white;
-        }
-        */
-
         #jam-grid {
                 grid-template-columns:auto auto auto;
-                gap:100px 10px;
         }
 
-        #mission {
+        .text {
                 width:60%;
         }
 }
 
 /* tablet */
 @media all and (min-width: 800px) and (max-width: 1349px) {
-        /* for testing */
-        /*
-        body {
-                background-color: white;
+        * {
+                font-size:20pt;
         }
-        */
 
         #jam-grid {
                 grid-template-columns:auto auto;
                 gap:50px 10px;
         }
 
-        #mission {
+        .text {
                 width:80%;
         }
 }
 
 /* cell */
 @media all and (max-width: 767px) {
-        /* for testing */
-        /*
-        body {
-                background-color: black;
+        * {
+                font-size:24pt;
         }
-        */
 
         #jam-grid {
                 grid-template-columns:auto;
         }
 
-        #mission {
+        .text {
                 width:100%;
         }
 }

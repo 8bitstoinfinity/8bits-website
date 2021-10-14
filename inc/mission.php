@@ -1,5 +1,5 @@
 <a class="anchor" id="mission"></a>
-<div id="mission">
+<div class="text">
         <h2>Mission Statement</h2>
         <p>
                 <em>8 Bits to Infinity</em> is a community of game developers

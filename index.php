@@ -13,6 +13,7 @@
         <main class="content">
                 <?php include "inc/jams.php" ?>
                 <?php include "inc/mission.php" ?>
+                <?php include "inc/jam-rules.php" ?>
         </main>
 <script src="main.js"></script>
 </body>
