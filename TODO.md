@@ -1,6 +1,7 @@
+- diversifiers list (collapsible? use html5 tags)
+- jam FAQ
 - intro text? or is it okay leaving that out? probably want at least a little blurb
 - highlight current jam (larger, centered, not in grid below)
 - branding
 - articles
 - team? at least me, lilou, xaaf, cbp? maybe separate page for guest judges
-- diversifiers list (collapsible? use html5 tags)

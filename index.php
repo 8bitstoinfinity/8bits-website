@@ -16,6 +16,7 @@
                 <?php include "inc/jams.php" ?>
                 <?php include "inc/mission.php" ?>
                 <?php include "inc/jam-rules.php" ?>
+                <?php include "inc/jam-faq.php" ?>
                 <?php include "inc/rating-guide.php" ?>
         </main>
         <footer>

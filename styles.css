@@ -145,15 +145,11 @@ a.anchor {
         margin: 0px 30px;
 }
 
-pre code {
+a:link, a:visited, code {
         color:#7AC943;
 }
 
-code, blockquote, a:visited {
-        color:#7AC943;
-}
-
-a:link, a:visited {
+a:hover {
         color:#CE5801;
 }
 
