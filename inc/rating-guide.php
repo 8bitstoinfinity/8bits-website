@@ -116,7 +116,7 @@
         </ol>
 
         <a class="anchor" id="theme"></a>
-        <h3>Theme/Limitation</h3>
+        <h3>Theme / Limitation</h3>
         <p>
                 Implementation of jam theme and limitation. Is the theme
                 prevalent? How unusual is the interpretation? How strictly does
