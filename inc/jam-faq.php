@@ -1,5 +1,6 @@
 <a class="anchor" id="faq"></a>
 <div class="text">
+        <h2>Jam FAQ</h2>
         <h3>
                 How do I submit my game?
         </h3>

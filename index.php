@@ -18,6 +18,7 @@
                 <?php include "inc/jam-rules.php" ?>
                 <?php include "inc/jam-faq.php" ?>
                 <?php include "inc/rating-guide.php" ?>
+                <?php /*include "inc/jamming1.php"*/ ?>
         </main>
         <footer>
                 <p>Website, 8 Bits to Infinity logos, and textual content copyright &copy;2021 Joshua McLean</p>
