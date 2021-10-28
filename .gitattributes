@@ -1,1 +1,2 @@
-*.php linguist-language=php
+*.php linguist-language=PHP
+inc/*.php linguist-language=PHP
