@@ -1,3 +1,4 @@
+<?php ?>
 <a class="anchor" id="faq"></a>
 <div class="text">
         <h2>Jam FAQ</h2>
@@ -47,14 +48,8 @@
         <h3>
                 I’m awful at music/art. How could I ever make a game?
         </h3>
-        TODO LINKS
         <blockquote>
-                Premade assets can help a lot! Find art and audio resources on
-                places like itch.io and Open Game Art.
-        </blockquote>
-        <blockquote>
-                You can get premade looping music from Retro Indie Josh's
-                collection.
+                <?php include "assets.html" ?>
         </blockquote>
 
         <h3>

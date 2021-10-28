@@ -16,7 +16,7 @@
                 <?php include "inc/jams.html" ?>
                 <?php include "inc/mission.html" ?>
                 <?php include "inc/jam-rules.html" ?>
-                <?php include "inc/jam-faq.html" ?>
+                <?php include "inc/jam-faq.php" ?>
                 <?php include "inc/diversifiers.html" ?>
                 <?php include "inc/rating-guide.html" ?>
                 <?php /*include "inc/jamming1.php"*/ ?>
