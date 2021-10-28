@@ -22,8 +22,7 @@
                 <?php /*include "inc/jamming1.php"*/ ?>
         </main>
         <footer>
-                <p>Website, 8 Bits to Infinity logos, and textual content copyright &copy;2021 Joshua McLean</p>
-                <p>All other art copyright &copy; respective owners</p>
+                <?php include "inc/footer.html" ?>
         </footer>
 <script src="main.js"></script>
 </body>
