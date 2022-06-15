@@ -19,6 +19,7 @@
                 <?php include "inc/jam-faq.php" ?>
                 <?php include "inc/diversifiers.html" ?>
                 <?php include "inc/rating-guide.html" ?>
+                <?php include "inc/branding.html" ?>
                 <?php /*include "inc/jamming1.php"*/ ?>
         </main>
         <footer>

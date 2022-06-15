@@ -60,6 +60,13 @@ a.anchor {
         visibility: hidden;
 }
 
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
 .content {
         background-color:#332C50;
         /* this doesn't work?! */
