@@ -12,15 +12,3 @@ each should contain two files:
 do *not* put additional files in the `jam` directory!
 
 you *may* put files in specific jam directories such as `jam/2022-07_three-button-jam`
-
-## Branches
-
-**Alpha**
-
-- used for testing and main development
-- hosted at 8bitstoinfinity.com/alpha
-
-**Main**
-
-- merged from alpha
-- never modify directly! only merges
