@@ -16,7 +16,6 @@ $i = 0;
 foreach($jam_dirs as $jam_dir) {
         if($jam_dir[0] == '.')
                 continue;
-	echo ($jam_dir);
         $jam = new Jam();
 
         $exploded = explode('_', $jam_dir);
