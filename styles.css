@@ -4,200 +4,202 @@
 */
 
 * {
-        box-sizing:border-box;
-        color:#E2F3E4;
-        font-family:sans-serif;
-        font-size:16pt;
-        text-align:left;
-        -moz-osx-font-smoothing:grayscale;
-        -webkit-font-smoothing:antialiased;
+    box-sizing: border-box;
+    color: #E2F3E4;
+    font-family: sans-serif;
+    font-size: 16pt;
+    text-align: left;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
-        background-color:#574B89;
+    background-color: #574B89;
 }
 
 footer {
-        clear:both;
-        width:40%;
-        margin:auto;
-        padding: 20px 0px;
-        font-style:italic;
+    clear: both;
+    width: 40%;
+    margin: auto;
+    padding: 20px 0px;
+    font-style: italic;
 }
 
 footer p {
-        text-align: center;
-        color:#DDD;
-        font-size:80%;
+    text-align: center;
+    color: #DDD;
+    font-size: 80%;
 }
 
-h1, h2 {
-        font-weight:bolder;
-        margin:10px 0px;
-        padding-bottom:20px;
-        text-align:center;
+h1,
+h2 {
+    font-weight: bolder;
+    margin: 10px 0px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 h1 {
-        font-size:250%;
+    font-size: 250%;
 }
 
 h2 {
-        font-size:200%;
-        padding-top: 80px;
+    font-size: 200%;
+    padding-top: 80px;
 }
 
 h3 {
-        font-size:130%;
-        font-weight:bold;
-        padding-top: 20px;
+    font-size: 130%;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 a.anchor {
-        display: block;
-        position: relative;
-        top: -100px;
-        visibility: hidden;
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }
 
 .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .content {
-        background-color:#332C50;
-        /* this doesn't work?! */
-        /*border-radius:25px;*/
-        padding:40px;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:100px;
-        width:80%;
+    background-color: #332C50;
+    /* this doesn't work?! */
+    /*border-radius:25px;*/
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
 }
 
 .jam {
-        padding-top:100px;
-        text-align:center;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .jam-link {
-        font-size:30px;
-        font-weight:bolder;
-        text-align:center;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .jam-logo {
-        border-radius:10px;
-        width:315px;
-        height:250px;
+    border-radius: 10px;
+    width: 315px;
+    height: 250px;
 }
 
 .sm-block {
-        text-align:center;
-        padding-right: 50px;
+    text-align: center;
+    padding-right: 50px;
 }
 
 .sm-icon {
-        margin-left:auto;
-        margin-right:auto;
-        height:18px;
-        padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 18px;
+    padding-right: 10px;
 }
 
 #jam-grid {
-        display:grid;
+    display: grid;
 }
 
 #navbar {
-        background-color:#574B89;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100%;
+    background-color: #574B89;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #main-logo {
-        display:block;
-        float:left;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:20px;
-        width:40%;
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 40%;
 }
 
 .text {
-        margin-left:auto;
-        margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #mission-statement {
-        font-weight:bold;
+    font-weight: bold;
 }
 
 #social-media {
-        display:flex;
-        padding-top: 40px;
-        justify-content:center;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
 }
 
 #toc {
-        margin: 20px 0px;
-        text-align:center;
+    margin: 20px 0px;
+    text-align: center;
 }
 
 #toc a {
-        margin: 0px 30px;
+    margin: 0px 30px;
 }
 
-a:link, a:visited, code {
-        color:#7AC943;
+a:link,
+a:visited,
+code {
+    color: #7AC943;
 }
 
 a:hover {
-        color:#CE5801;
+    color: #CE5801;
 }
 
 /* desktop */
 @media all and (min-width: 1349px) {
-        #jam-grid {
-                grid-template-columns:auto auto auto;
-        }
+    #jam-grid {
+        grid-template-columns: auto auto auto;
+    }
 
-        .text {
-                width:60%;
-        }
+    .text {
+        width: 60%;
+    }
 }
 
 /* tablet */
 @media all and (min-width: 800px) and (max-width: 1349px) {
-        * {
-                font-size:20pt;
-        }
+    * {
+        font-size: 20pt;
+    }
 
-        #jam-grid {
-                grid-template-columns:auto auto;
-                gap:50px 10px;
-        }
+    #jam-grid {
+        grid-template-columns: auto auto;
+        gap: 50px 10px;
+    }
 
-        .text {
-                width:80%;
-        }
+    .text {
+        width: 80%;
+    }
 }
 
 /* cell */
 @media all and (max-width: 767px) {
-        * {
-                font-size:24pt;
-        }
+    * {
+        font-size: 24pt;
+    }
 
-        #jam-grid {
-                grid-template-columns:auto;
-        }
+    #jam-grid {
+        grid-template-columns: auto;
+    }
 
-        .text {
-                width:100%;
-        }
+    .text {
+        width: 100%;
+    }
 }
