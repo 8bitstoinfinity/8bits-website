@@ -18,6 +18,7 @@
     </header>
     <main class="content">
         <?php include "inc/jams.html" ?>
+        <?php include "inc/challenges.html" ?>
         <?php include "inc/mission.html" ?>
         <?php /*include "inc/jam-rules.html"*/ ?>
         <?php include "inc/jam-faq.php" ?>
